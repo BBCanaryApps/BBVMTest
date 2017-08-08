@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 
-which pip
+which blah
+
+# Check that pip is installed
+which pip 
 
 # Check that system integrity protection is disabled
 if csrutil status | grep -q 'enabled'; then
