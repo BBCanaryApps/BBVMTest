@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+which pip
+
 # Check that system integrity protection is disabled
 if csrutil status | grep -q 'enabled'; then
   echo "System Integrity Protection is enabled. Failing..."
