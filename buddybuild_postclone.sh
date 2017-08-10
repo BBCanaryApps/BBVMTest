@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+chruby
+
 # Check that pip is installed
 which pip || { echo 'pip not installed, failing...'; exit 1; }  
 
